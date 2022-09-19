@@ -8,14 +8,15 @@
 </head>
 <style>
     body {
+        width: 95vw;
+        height: 95vh;
         background-color: #ff1457;
         color: bisque;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 32vh;
-        font-size: 30px;
+        font-size: 5vh;
     }
     .btn{
         display: flex;
@@ -31,6 +32,21 @@
     button:hover{
         color: bisque;
         background: #ff1457;
+    }
+
+    @media only screen and (max-width: 768px) {
+        body{
+            font-size: 1.9vh;
+        }
+        button{
+            width: 21vw;
+            height: 7vh;
+            font-size: 2vh;
+        }
+        button:hover{
+            color: #ff1457;
+            background: bisque;
+        }
     }
 </style>
 
