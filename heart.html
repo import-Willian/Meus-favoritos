@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OFF</title>
+</head>
+<style>
+    body {
+        background-color: #ff1457;
+        color: bisque;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 32vh;
+        font-size: 30px;
+    }
+    .btn{
+        display: flex;
+        gap: 6px;
+    }
+    button{
+        width: 5vw;
+        height: 5vh;
+        border: none;
+        border-radius: 5px;
+        color: #ff1457;
+    }
+    button:hover{
+        color: bisque;
+        background: #ff1457;
+    }
+</style>
+
+<body>
+    <div>
+        <h1>PROCURANDO ALGO ?</h1>
+    </div>
+    <div class="btn">
+        <button onclick="y()">SIM</button><button onclick="n()">NÃO</button>
+    </div>
+    <script>
+        function y(){
+            window.alert('NÃO TEM NADA AQUI, SERIO')
+        }
+        function n(){
+            window.alert('ENTÃO TÁ BEM, VAI LÁ CURTIR OS FILMES VIDA')
+        }
+    </script>
+</body>
+
+</html>

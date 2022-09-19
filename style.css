@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #35313b;
+    scroll-snap-type: proximity;
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+    width: 0;
+}
+/* 
+header {
+    background-color: #ff1457;
+    padding-top: 2vh;
+    margin-top: -2.5vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+label {
+    display: block;
+}
+
+input,
+button {
+    padding: 10px;
+    border-radius: 2vh;
+    box-shadow: none;
+    outline: none;
+    color: aliceblue;
+    background-color: #35313b;
+    border: none;
+}
+
+button {
+    margin-right: 7vw;
+}
+
+input {
+    width: 50vw;
+} */
+
+main{
+    margin-top: -3.5vh;
+}
+.intro {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ff1457;
+}
+
+.intro_left {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    color: bisque;
+    font-family: 'Roboto Slab', serif;
+    font-size: 5vw;
+}
+
+
+.intro_right {
+    width: 50vw;
+}
+
+.message {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: bisque;
+}
+
+.message_left {
+    width: 75vw;
+}
+
+.message_right {
+    width: 25vw;
+}
+
+.message_right>h2 {
+    width: 20vw;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.declaracao {
+    width: 50vw;
+    outline: none;
+}
+
+.film {
+    margin-bottom: -9vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 9vw;
+    color: bisque;
+}
+
+.movies {
+    padding-top: 15vh;
+    padding-bottom: 2vw;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3.8vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    width: 90vw;
+    height: auto;
+    background-color: #453745;
+}
+
+.card_movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vw;
+    color: bisque;
+}
+
+.card_movie:hover {
+    background-color: #ff1457;
+    border-radius: 7px;
+}
+
+.card_movie>img {
+    width: 200px;
+    height: 300px;
+}
+
+a {
+    text-decoration: none;
+}

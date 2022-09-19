@@ -1,0 +1,19 @@
+FILMES(){
+    CORALINE (X)(X)(X)(X);
+    PARANORMAN(X)(X)(X)(x);
+    NOIVA CADÁVER(X)(X)(X)(X);
+    PRINCESA E O SAPO (X)(X)(X)(X);
+    DE REPENTE 30 (X)(X)(X)(X);
+    MENINAS MALVADAS(X)(X)(X)(X);
+    COMO SE FOSSE A PRIMEIRA VEZ(x)(X)(X)(X);
+    1000 PALAVRAS(X)(X)(X)(X);
+    AS BRANQUELAS(X)(X)(X)(X);
+    SCOOBY-DOO(X)(X)(X)(x)(x);
+}
+CORES(){
+    #ff1457;
+    #613c4c;
+    #453745;
+    #35313b;
+    #2b2c30;
+}
