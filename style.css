@@ -145,3 +145,49 @@ main{
 a {
     text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+    .intro{
+        height: 25vh;
+    }
+
+    .message{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .message_left {
+        width: 100vw;
+    }
+    
+    .message_right {
+        width: 100vw;
+    }
+    
+    .message_right>h2 {
+        width: 90vw;
+        font-size: 3vh;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        margin-left: 5vw;
+        text-align: center;
+    }
+    
+    .declaracao {
+        margin-left: 2.5vw;
+        width: 95vw;
+        outline: none;
+    }
+
+    .movies{
+        padding-top: 5vh;
+        font-size: 1.5vh;
+        border-radius: 10px;
+    }
+
+    .card_movie>img {
+        width: 32vw;
+        height: auto;
+    }
+}

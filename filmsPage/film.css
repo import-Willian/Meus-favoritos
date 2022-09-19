@@ -39,6 +39,7 @@ main {
     width: 50vw;
     outline: none;
 }
+
 .main_top_left>iframe {
     width: 50vw;
     height: 30vw;
@@ -111,4 +112,73 @@ footer {
 a {
     text-decoration: none;
     color: bisque
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        display: none;
+        background-color: #ff1457;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main_top {
+        height: 32vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .main_top_left>iframe {
+        width: 100vw;
+        height: 25vh;
+        outline: none;
+        border: none;
+    }
+
+    .main_top_right {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .main_top_right p {
+        display: none;
+    }
+    .main_botton{
+        margin: 3vh 0px;
+        width: 95vw;
+        height: auto;
+    }
+    .next_movie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        height: auto;
+        justify-content: flex-start;
+        border-radius: 10px;
+    }
+
+    .next_movie img{
+        width: 60%;
+        height: 90%;
+    }
+    .next_movie p{
+        font-size: 1.5vh;
+    }
+    footer{
+        height: 5vh;
+    }
+    footer a{
+        font-size: 1.5vh;
+    }
 }
